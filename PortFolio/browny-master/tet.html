@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+ <style>
+.contact {
+    background: #f9fbfd;
+    padding: 50px 0 100px;
+}
+.single-contact-box {padding-top: 100px;}
+.contact-form  .form-group {
+    margin-bottom: 20px;
+    
+}
+.contact-form .form-control {
+    padding: 25px;
+    font-size: 14px;
+    border: 1px solid #d5f7f55e;
+    border-radius: 9px;
+    box-shadow: none;
+    outline: 0!important;
+    background: #fff;
+    color: #636a82;
+    resize: none;
+}
+
+/*--contct button--*/
+.contact-form .single-contact-btn {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:50px;
+    text-transform:capitalize;
+    margin-top: 3px;
+    background: #708deb;
+    border: 1px solid #7f9cff;
+    cursor:pointer;
+    box-shadow: 0 5px 20px #00000087;
+     -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+}
+.contact-form .single-contact-btn .contact-btn ,
+.contact-form .single-contact-btn .contact-btn:focus {
+    margin-top:0px;
+    outline: 0 !important;
+    border:0;
+    color: #fff;
+    border-radius: 0px;
+    font-size:14px;
+    -webkit-transition: .5s; 
+    -moz-transition:.5s; 
+    -ms-transition:.5s; 
+    -o-transition:.5s;
+    transition: .5s;
+    
+}
+.single-contact-btn:hover{
+    background: #7f9cff;
+    border: 1px solid #7f9cff;
+    box-shadow: 0 5px 20px #d5f7f55e;
+}
+    </style>
+</head>
+<body>
+<div class="form-container">
+    <form action="https://api.web3forms.com/submit" method="POST" enctype="text">  
+        <div class="form-header">
+
+            <h2>Contact Us</h2>
+           
+
+            <input type="hidden" name="access_key" value="7c839e30-b869-47ec-9783-dc8a6e71b999">
+
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Subject</label>
+            <input type="text" id="text" name="text" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Send</button>
+        </div>
+      </div>
+    </form>
+</body>
+</html>
+
+<!--button-->
+<div class="form-group"> 
+    <div class="col-sm-12">
+        <div class="single-contact-btn">
+
+            <button type="submit">Send Message</button>
+        </div>	
+    </div>
+</div>
