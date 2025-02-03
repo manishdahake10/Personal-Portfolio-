@@ -61,7 +61,6 @@ Feel free to fork this repository and contribute by opening issues or submitting
 - Improving the design or layout.
 
 ## Author
-**Your Name**  
 GitHub: [manishdahake10](https://github.com/manishdahake10)  
 LinkedIn: [https://www.linkedin.com/in/manish-dahake-407307205/](https://www.linkedin.com/in/manish-dahake-407307205/)
 
